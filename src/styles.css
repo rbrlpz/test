@@ -1,5 +1,28 @@
-h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
-}
+body {
+	    background:url(ima/fond.jpg);
+	    background-attachment: fixed;
+	    width: 100%;
+	}
+ h1{
+		/*cambia el titulo que dice Profe:Rober Lopez*/
+		letter-spacing: 5px;
+		color: white;
+		font-family: Verdana, Helvetica, sans-serif;
+		font-size: 300%;
+		text-shadow:5px 5px 5px #000;
+		margin-left: 3em;
+		background-image: url("ima/usu.png");
+		background-size: 70px;
+		background-repeat: no-repeat;
+		background-position: 65% 50%;
+	}
+ h2{
+	 	color: white;
+		font-family: Verdana,Helvetica, sans-serif;
+		font-size: 150%;
+		margin-left: 3em;
+ 	}
+  
+
+
+

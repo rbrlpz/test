@@ -9,27 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var detalle_materia_component_1 = require('./detalle_materia.component');
 /* hola */
 var AppComponent = (function () {
     function AppComponent() {
         this.name = 'Rober Lopez';
-        this.grupos = [
-            {
-                grupo: "8AW",
-                materia: "Desarrollo web profesional",
-                horario: "13 - 14 hrs",
-            }, {
-                grupo: "7Y",
-                materia: "Conmutacion y enrutamiento de redes de datos",
-                horario: "9 - 10 hrs",
-                modalidad: "distancia"
-            }
-        ];
     }
     AppComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "<h1>Profesor: {{name}}</h1>\n            <article *ngFor=\"let grupo of grupos\">\n                <p>grupo: <strong>{{grupo.grupo}}</strong></p>\n                <p>materia: <strong>{{grupo.materia}}</strong></p>\n                <p>horario: <strong>{{grupo.horario}}</strong></p>\n                <p>modalidad: <strong>{{grupo.modalidad}}</strong></p>\n            </article>\n            ",
+            selector: 'app-root',
+            templateUrl: './app/datos.html',
+            styleUrls: ['./app/datos.css'],
+            directives: [detalle_materia_component_1.DetalleMateria]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
